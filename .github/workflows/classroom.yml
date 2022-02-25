@@ -26,7 +26,7 @@ jobs:
           label: 'Score'
       
       - run: |
-          git config --local user.email "action@github.com"
+          git config --local user.email "action@github.com" 
           git config --local user.name "GitHub Action"
           git add '.github/badges/points-bar.svg'
           git commit -m "Add/Update points bar" || exit 0
